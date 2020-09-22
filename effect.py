@@ -22,12 +22,15 @@ cv2.imwrite("lenna_purple.jpg",image_purple)
 
 image_blue[:,:,0] = 255 #goruntuye mavi efekt verir
 cv2.imshow("Lenna blue effect",image_blue)
+cv2.imwrite("lenna_blue.jpg",image_blue)
 
 image_green[:,:,1] = 255 #goruntuye yesil efekt verir
 cv2.imshow("Lenna green effect",image_green)
+cv2.imwrite("lenna_green.jpg",image_green)
 
 image_red[:,:,2] = 255 #goruntuye kirmizi efekt verir
 cv2.imshow("Lenna red effect",image_red)
+cv2.imwrite("lenna_red.jpg",image_red)
 
 image_effect[120:145,115:185,0]=200 #belirtilen alana verilen blue degerini uygular
 image_effect[120:145,115:185,1]=80 #belirtilen alana verilen green degerini uygular
